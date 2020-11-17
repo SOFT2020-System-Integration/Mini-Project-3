@@ -17,8 +17,10 @@ Each message created will then be sent to the respectable person as a message.
 2. Your favorite IDE that can run java, we use IntelliJ.
  
 ## How to run the project
-1. Go to the root of your unzipped Kafka folder, and then do the following:  
-- [b]Windows
 
-1. Start Kafka Zookeeper `zookeeper-server-start.bat ../../config/zookeeper.properties`
-2. Start Kafka Server `kafka-server-start.bat ../../config/server.properties`
+####  On Windows
+1. Open two command prompts and navigate to `kafka/bin/windows` in both cmd's:  
+2. Start Kafka Zookeeper (in cmd 1) `zookeeper-server-start.bat ../../config/zookeeper.properties`
+3. Start Kafka Server (in cmd 2) `kafka-server-start.bat ../../config/server.properties`
+4. Start Kafka Tool 2.0.8 and connect to the server:
+![kafka](/img/kafka-setup.png)

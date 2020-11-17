@@ -5,8 +5,9 @@
  
 ## Info
 We chose to do nr. 3 in the assignment.  
-The program is used to send an Email to all of the people that is saved in the `people.json` file
-The middleware sends a request to a name api to get the gender of each client and then injects that gender and name into a message that is created from the content of `Template email.txt` and then send that email to all the clients as a message.
+The program is used to send an Email to all of the people that is saved in the `people.json` file.  
+The middleware sends the name of each person in the json file is to a naming-api to determine the title of the person. When the title is retrieved, it then injects the title and name into a message that is generated from the content of `TemplateEmail.txt`.
+Each message created will then be sent to the respectable person as a message.
   
  
 ## Setup

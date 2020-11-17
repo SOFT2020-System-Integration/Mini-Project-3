@@ -28,7 +28,7 @@ The consumer listens for messages sent form the producer, and print's them in it
 4. Start Kafka Tool 2.0.8 and connect to the server:  
 ![kafka](/img/kafka-setup.png)    
 5. Open and run both programs: `Kafka-Producer` and `Kafka-Consumer`  
-6. When both programs are running, send a post request to `localhost:9000/kafka/mail/all`
+6. When both programs are running, send a `POST` request to `localhost:9000/kafka/mail/all`
 7. You should now be able to see the message sent in both the `Producer` and the `Consumer`'s consoles.
 8. The messages sent can also be seen in Kafka 2.0.8. Open the program and navigate to Kafka -> Topics -> `messsage-topic`. Select on the `data` tab and then click on the green circle to see all the messages.
 9. If the messages is shown as binary, head to the `properties` tab and change `Content-Types` Key  and Message to `String`.  

@@ -5,9 +5,9 @@
  
 ## Info
 We chose to do nr. 3 in the assignment.  
-The program is used to send an Email to all of the clients that is saved in the producers `customers.txt` file
-In the customer list is listed a name and an email for each client, and the way the middleware works is, so when you tell the middleware to send an email to all the clients, the content of the email will be generated from the text stored in `Template email.txt`.  
-
+The program is used to send an Email to all of the people that is saved in the `people.json` file
+The middleware sends a request to a name api to get the gender of each client and then injects that gender and name into a message that is created from the content of `Template email.txt` and then send that email to all the clients as a message.
+  
  
 ## Setup
 What you'll need:

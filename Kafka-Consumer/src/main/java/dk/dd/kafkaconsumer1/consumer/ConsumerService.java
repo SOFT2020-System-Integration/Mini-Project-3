@@ -19,28 +19,14 @@ public class ConsumerService
 
       // get logger for my class
       private static final Logger logger = LoggerFactory.getLogger(ConsumerService.class);
-      
-      @KafkaListener(topics = "message-topic", groupId = "my-group")
-      public void consume(String message) throws IOException
-      {
-            logger.info("&&& Message [{}] consumed", message);
-      }
 
-      @KafkaListener(topics = "message-topicc", groupId = "my-group")
-      public void consume1(String message) throws IOException
-      {
-            logger.info("&&& Message [{}] consumed", message);
-      }
 
       @KafkaListener(topics = "message-topic", groupId = "my-group")
       public void listenToMessages(String message) throws IOException{
             synchronized (messages){
                   messages.add(message);
             }
-            for (String mymessage : messages) {
-                  logger.info("&&& Message Consumed: [" + mymessage + "]");
-
-            }
+            logger.info("&&& Message Consumed: [" + message + "]");
       }
 
       public List<String> getMessages() {

@@ -16,8 +16,9 @@ The consumer listens for messages sent form the producer, and print's them in it
 ## Setup
 1. Kafka Tool 2.0.8 [Download here](https://www.kafkatool.com/download.html)
 2. Apache Kafka - unzip [Kafka.zip](kafka.zip)
-3. Your favorite IDE that can run java, we use IntelliJ.
-4. A tool to send post requests, we use Postman.
+3. In the Kafka folder, navitage to `config` and edit `server.properties` & `zookeeper.properties` to log to your file path (current path is `C:/thoma/documents/kafka/data/kafka or zookeeper` depending on the file open. This path might not work for you.
+4. Your favorite IDE that can run java, we use IntelliJ.
+5. A tool to send post requests, we use Postman.
  
 ## How to run the project
 

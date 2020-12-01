@@ -1,4 +1,4 @@
-# Mini Project-3 Message Oriented Middleware
+# Mini-Project-3 Message Oriented Middleware
 
 ### by Andeas Jørgensen, Jonatan Bakke, Jonas Hein & Thomas  Ebsen
 [Assignment Link](A8-MOM.pdf)  

@@ -1,6 +1,9 @@
 # Mini-Project-3 Message Oriented Middleware
 
-### by Andeas Jørgensen, Jonatan Bakke, Jonas Hein & Thomas  Ebsen
+- Andeas Jørgensen - https://github.com/DDomino
+- Jonatan Bakke https://github.com/JonatanMagnusBakke
+- Jonas Hein - https://github.com/Zenzus
+- Thomas Ebsen - https://github.com/Srax 
 [Assignment Link](A8-MOM.pdf)  
  
 ## Info

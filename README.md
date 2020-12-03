@@ -4,7 +4,7 @@
 - Jonatan Bakke https://github.com/JonatanMagnusBakke
 - Jonas Hein - https://github.com/Zenzus
 - Thomas Ebsen - https://github.com/Srax   
-[Assignment Link](A8-MOM.pdf)  
+- [Assignment Link](A8-MOM.pdf)  
  
 ## Info
 We chose to do nr. 3 in the assignment.  
